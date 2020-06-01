@@ -1,0 +1,97 @@
+.banner-controls {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.banner-description-list__bold, .banner-description-list__item {
+  color: #2a2b30;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px; }
+  @media (min-width: 768px) {
+    .banner-description-list__bold, .banner-description-list__item {
+      font-size: 20px;
+      line-height: 34px; } }
+
+.banner-controls__button-blue, .banner-controls__button-white {
+  width: 183px;
+  height: 42px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer; }
+
+.button-blue-title, .button-white-title {
+  display: inline-block;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  margin-top: 12px; }
+
+.banner-section {
+  background-image: url("../images/main-picture.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px; }
+  @media (min-width: 768px) {
+    .banner-section {
+      height: 849px; } }
+
+.banner-title {
+  margin: 45px 0 24px; }
+  @media (min-width: 768px) {
+    .banner-title {
+      margin: 145px 0 74px; } }
+
+.banner-title-text {
+  color: #272733;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .banner-title-text {
+      font-size: 48px;
+      line-height: 64px; } }
+
+.banner-description {
+  margin-bottom: 35px; }
+  @media (min-width: 768px) {
+    .banner-description {
+      margin-bottom: 77px; } }
+
+.banner-description-list__bold {
+  font-weight: 700; }
+
+.banner-description-list__item {
+  font-weight: 400; }
+
+.banner-controls {
+  justify-content: flex-start; }
+
+.banner-controls__button-blue {
+  border: 1px solid #ffffff;
+  background-color: #3e9cdc;
+  margin-right: 27px; }
+  .banner-controls__button-blue:hover {
+    background-color: #42a9ed; }
+
+.banner-controls__button-white {
+  border: 1px solid #6f6d7b;
+  background-color: #ffffff; }
+  .banner-controls__button-white:hover {
+    border-color: #bbbbbb; }
+    .banner-controls__button-white:hover span {
+      color: #6f6d7b; }
+
+.button-blue-title {
+  color: #ffffff; }
+
+.button-white-title {
+  color: #2a2b30; }
+
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,32 @@
+@import "reset.scss";
+@import "theme.scss";
+@import "header.scss";
+@import "banner.scss";
+@import "content.scss";
+@import "footer.scss";
+
+.container {
+	@include for-phone-s {    
+		padding: 0 $padding16;
+	}
+
+	@include for-tablet {    
+		padding: 0 $padding48;
+	}
+
+	@include for-desktop-m {    
+		padding: 0 $padding72;
+	}
+
+	@include for-desktop-l {    
+		padding: 0 $padding375;
+	}
+}
+
+.blue-text {
+	color: $lightBlue;
+}
+
+.upper-text {
+	text-transform: uppercase;
+}

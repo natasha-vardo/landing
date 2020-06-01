@@ -1,0 +1,99 @@
+.footer, .footer-payment, .footer-contact-us {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.footer-payment__title, .footer-contact-us__title {
+  display: inline-block;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.footer-section {
+  width: 100%;
+  background-color: #3d4050; }
+
+.footer {
+  flex-direction: column;
+  padding: 15px 0 15px;
+  align-items: center; }
+  @media (min-width: 992px) {
+    .footer {
+      flex-direction: row;
+      justify-content: center;
+      padding: 35px 0 33px;
+      align-items: unset; } }
+
+.footer-rights {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  border-right: none;
+  padding-right: 0;
+  margin-bottom: 10px;
+  text-align: center; }
+  @media (min-width: 992px) {
+    .footer-rights {
+      border-right: 1px solid #c3c3c3;
+      margin-bottom: 0;
+      font-size: 12px;
+      padding-right: 5px;
+      text-align: unset; } }
+  @media (min-width: 1920px) {
+    .footer-rights {
+      font-size: 13px;
+      padding-right: 55px; } }
+
+.footer-payment {
+  border-right: none;
+  margin-bottom: 10px; }
+  @media (min-width: 992px) {
+    .footer-payment {
+      border-right: 1px solid #c3c3c3;
+      margin-bottom: 0; } }
+
+.footer-payment__item {
+  padding: 0 7px 0 0; }
+  @media (min-width: 992px) {
+    .footer-payment__item {
+      padding: 0 5px; } }
+  @media (min-width: 1920px) {
+    .footer-payment__item {
+      padding: 0 40px 0 0; }
+      .footer-payment__item:first-child {
+        padding: 0 40px 0 40px; } }
+
+.footer-payment__title {
+  margin: -2px 0 0 10px;
+  color: #bbbbbb; }
+
+.yandex-money {
+  margin-top: -2px; }
+
+.footer-contact-us__item {
+  padding: 0 7px 0 0; }
+  @media (min-width: 992px) {
+    .footer-contact-us__item {
+      padding: 0 5px; } }
+  @media (min-width: 1920px) {
+    .footer-contact-us__item {
+      padding: 0 40px 0 0; }
+      .footer-contact-us__item:first-child {
+        padding: 0 40px 0 40px; } }
+
+.footer-contact-us__title {
+  color: #fefefe;
+  margin-left: 10px; }
+  @media (min-width: 992px) {
+    .footer-contact-us__title {
+      margin-left: 5px; } }
+  @media (min-width: 1200px) {
+    .footer-contact-us__title {
+      margin-left: 10px; } }
+
+.contact-us-item {
+  margin-top: 3px; }
+
+/*# sourceMappingURL=footer.css.map */

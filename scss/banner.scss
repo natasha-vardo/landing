@@ -1,0 +1,125 @@
+@import "theme.scss";
+
+%text-block {
+	color: $black;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 34px;
+
+	@include for-tablet {    
+		font-size: 20px;
+		line-height: 34px;
+	}
+}
+
+%button {
+	width: 183px;
+	height: 42px;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+}
+
+%button-title {
+	display: inline-block;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.33px;
+	margin-top: 12px;
+}
+
+.banner-section {
+	background-image: url('../images/main-picture.png');
+	background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center;
+	height: 550px;
+
+	@include for-tablet {    
+		height: 849px;
+	}
+}
+
+.banner-title {
+	margin: 45px 0 24px;
+
+	@include for-tablet {    
+		margin: 145px 0 74px;
+	}
+}
+
+.banner-title-text {
+	color: $darkBlue3;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+
+	@include for-tablet {    
+		font-size: 48px;
+		line-height: 64px;
+	}
+}
+
+.banner-description {
+	margin-bottom: 35px;
+
+	@include for-tablet {    
+		margin-bottom: 77px;
+	}
+}
+
+.banner-description-list__bold {
+	@extend %text-block;
+	font-weight: 700;
+}
+
+.banner-description-list__item {
+	@extend %text-block;
+	font-weight: 400;
+}
+
+.banner-controls {
+	@extend %flex-block;
+	justify-content: flex-start;
+}
+
+.banner-controls__button-blue {
+	@extend %button;
+	border: 1px solid $white;
+	background-color: $blue;
+	margin-right: 27px;
+
+	&:hover {
+		background-color: $lightBlue;
+	}
+}
+
+.banner-controls__button-white {
+	@extend %button;
+	border: 1px solid $darkGrey;
+	background-color: $white;
+
+	&:hover {
+		border-color: $grey;
+
+		span {
+			color: $darkGrey;
+		}
+	}
+}
+
+.button-blue-title {
+	@extend %button-title;
+	color: $white;
+}
+
+.button-white-title {
+	@extend %button-title;
+	color: $black;
+}

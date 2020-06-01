@@ -1,0 +1,73 @@
+@import "theme.scss";
+
+.header-section {
+	width: 100%;
+	height: 100px;
+	background-color: $darkBlue2;
+	opacity: 0.9;
+}
+
+.header {
+	@extend %flex-block;
+	justify-content: space-between;
+}
+
+.header-logo {
+	@extend %flex-block;
+	justify-content: flex-start;
+}
+
+.header-logo__link {
+	display: block;
+	margin-top: 41px;
+	cursor: pointer;
+
+	img {
+		width: 100px;
+
+		@include for-tablet {    
+			width: unset;
+		}
+	}
+}
+
+.header-menu {
+	@extend %flex-block;
+	align-items: flex-start;
+}
+
+.header-menu-list {
+	@extend %flex-block;
+	justify-content: flex-start;
+	margin-top: 38px;
+
+	@include for-tablet {    
+		margin-top: 47px;
+	}
+}
+
+.header-menu-list__item {
+	color: $white;
+	font-family: "Lato - Semibold";
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.33px;
+	margin-right: 5px;
+	cursor: pointer;
+
+	&:last-child {
+		margin-right: unset;
+	}
+
+	&:first-child {
+		color: $lightBlue;
+	}
+
+	@include for-tablet {    
+		margin-right: 45px;
+		font-size: 13px;
+		line-height: 18px;
+	}
+}
